@@ -1,0 +1,24 @@
+.statistics {
+    position: relative;
+    margin-top: 25px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 613px;
+    height: 150px;
+    justify-content: center;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
+  
+  .statistics .stat-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Aby rozłożyć elementy równomiernie */
+  }
+  
+  .statistics .item {
+    padding: 30px;
+  }

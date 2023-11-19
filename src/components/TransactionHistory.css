@@ -1,0 +1,20 @@
+.transaction-history {
+    position: relative;
+    margin-top: 25px;
+    left: 7%;
+    
+   
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
+  
+  .transaction-history th {
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+  }
+  .transaction-history td {
+    background-color: white;
+    text-align: center;
+  }
